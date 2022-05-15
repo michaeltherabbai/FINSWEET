@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main-header */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+.road-assistance{
+    display: flex;
+    align-items: center;
+}
+
+.road-assistance .icon img{
+    margin-right: 1rem;
+}
+
+.road-assistance .inner-section p{
+margin-bottom: 13px;
+}
+
+.navigation{
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+.links-section{
+    display: flex;  
+}
+
+.links-section ul{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.links-section ul li{
+    margin-right: 2rem;
+    
+}
+.links-section ul li:hover{
+  background-color:#F5F5F5;
+}
+
+.links-section ul li a{
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    
+    
+    /* Black */
+    
+    color: #1E1B1B;
+}
+
+/* book a service section */
+.flex{
+    display: flex;
+   
+}
+
+.flexwrap{
+    flex-wrap: wrap;
+}
+
+.text-section{
+    width: 63%;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+    padding-top: 170px;
+    padding-left: 120px;
+    padding-right: 90px;
+    padding-bottom: 50px;
+    line-height: 175%;
+}
+
+.text-section  h1{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 84px;
+letter-spacing: -0.03em;
+color: #F2F2F2;
+}
+.orange-btn{
+    padding-top: 65px;
+    padding-left: 40px;
+    background: #FF6433;
+    color: white;
+    border-radius: 12px;
+    padding: 16px 40px;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+   text-decoration: none;
+    border: none;
+}
+
+
+
+
+.text-section p{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 175%;
+color: #F2F2F2;
+}
+
+
+.img-section{
+    width: 37%;
+    
+}
+.container{
+    
+    margin: 0 auto;
+}
+
+/* auto diagnostics section */
+#auto-diagnostics{
+     background: #F5F5F5;
+     height: 120vh;
+}
+
+#auto-diagnostics .container {
+ display: grid;
+ grid-template-columns: repeat(2,1fr);  
+}
+
+.left-section, .right-section{
+  margin: 1rem;
+}
+
+#auto-diagnostics .right-section {
+ display: grid;
+grid-gap: 15px;
+grid-template-columns: repeat(2, 1fr); 
+}
+#auto-diagnostics .left-section{
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+
+
+#auto-diagnostics .left-section h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+    
+    letter-spacing: -0.03em;
+    
+    /* Black */
+    
+    color: #1E1B1B;
+}
+
+#auto-diagnostics .left-section h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #232536;
+  
+    opacity: 0.6;
+}
+
+#auto-diagnostics .left-section h6{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    /* identical to box height, or 32px */
+    
+    
+    /* Black */
+    
+    color: #1E1B1B;
+}
+
+
+
+#auto-diagnostics .left-section img{
+    width: 390px;
+    height: 257px;
+    margin-top: 2rem;
+}
+
+.ad:hover{
+    background-color:#FF6433 ;
+    color: #FFFFFF;
+}
+
+
+
+
+.ad{
+    width: 100%;
+    height: 172px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #FFFFFF;
+color: #1E1B1B;
+
+}
+
+.right-section .orange{
+    background-color: #FF6433;
+
+}
+
+/* SECTION TWO STYLES */
+#two .container {
+    background-color: #FFFFFF;
+    display: flex;
+}
+#two .container .left ul li{
+    list-style: none;
+}
+
+#two .left{
+   
+    width: 50%;
+    
+}
+
+#two .left img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+#two .left h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+    
+    letter-spacing: -0.03em;
+    
+    /* Black */
+    
+    color: #1E1B1B;
+}
+
+#two .left h3{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+letter-spacing: -0.03em;
+
+/* Black */
+
+color: #1E1B1B;
+padding-right: 5rem;
+
+}
+
+.left, .right{
+    margin-top: 5rem;
+   
+}
+
+#two .right{
+    width: 50%;
+
+}
+
+#two .container .right .flex .img2 img{
+width: 100%;
+height: 100%;
+}
+
+#two .container .right .flex .img1 img{
+width: 95%;
+height: 100%;
+
+}
+
+/* SECTION THREE STYLES */
+#three .container{
+    display: flex;
+    height: 170vh;
+}
+
+#three .container .left-section{
+    width: 50%;
+}
+
+
+
+
+#three .container .left-section .img-one img{
+    width: 93%;
+     height: 135%; 
+}
+
+#three .container .left-section .img-two img{
+    width: 100%;
+    height: 135%;
+}
+
+#three .container .right-section{
+    width: 60%;
+    margin-left: 4rem;
+}
+
+#three .container .right-section h4{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+  
+    
+    letter-spacing: -0.03em;
+    
+   
+    
+    color: #1E1B1B;
+}
+
+#three .container .right-section h5{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+padding-right: 3rem;  
+    color: #232536;
+    
+    opacity: 0.6;
+}
+
+/* footer section */
+.first-footer {
+    background: #1E1B1B;
+    opacity: 0.98;
+    color: white;
+}
+
+.footer-content {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 100%;
+    margin: auto;
+}
+
+.left-side h2 {
+    padding-top: 1.5rem;
+    font-size: 32px;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.social-links {
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin {
+    width: 15%;
+}
+
+.facebook img,
+.twitter img,
+.instagram img,
+.linkedin img {
+    width: 70%;
+}
+
+.right-side {
+    padding-bottom: 2rem;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+.align-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.helpline p,
+.address p,
+.open-time p {
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+/* Second footer */
+.second-footer {
+    padding: 5% 0;
+    background-color: black;
+}
+
+.second-container {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+.footer-links li {
+    margin-left: 20px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links li a:hover {
+    color: #FF6433;
+}
+
+.copyright p {
+    color: #939191;
+    font-size: 14px;
+}
+
