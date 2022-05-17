@@ -765,6 +765,11 @@ input:focus {
     .contact-bg {
         width: 100%;
         height: 30vh;
+        margin-bottom: 3rem;
+    }
+    
+    .contact-bg .button{
+        margin-top: 3rem;
     }
 
     .contact-flexbox {
